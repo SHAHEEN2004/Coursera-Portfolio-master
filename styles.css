@@ -1,0 +1,35 @@
+nav {
+    background-color: #7700BC;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .navigation {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navigation li {
+    margin-right: 20px;
+  }
+  
+  .navigation li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .navigation li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
